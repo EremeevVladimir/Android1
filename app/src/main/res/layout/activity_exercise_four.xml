@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_gravity="center_vertical"
+    tools:context=".ExerciseFour">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#9DE690"
+        android:ems="5"
+        android:text="Makes the TextView be exactly this many ems wide. May be an integer value, such as 100"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#EFEB97"
+        android:ems="10"
+        android:text="Makes the TextView be exactly this many ems wide. May be an integer value, such as 100"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#E8B6B6"
+        android:ems="20"
+        android:text="Makes the TextView be exactly this many ems wide. May be an integer value, such as 100" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="2"
+        android:layout_marginTop="8dp"
+        android:hint="Работает только в TextView, в EditText ems атрибут не работает"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:background="#50A61B"
+        android:gravity="center"
+        android:onClick="toMain"
+        android:text="Back to main"
+        android:textColor="#FFFFFF" />
+
+
+</LinearLayout>
